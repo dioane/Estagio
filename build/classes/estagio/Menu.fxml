@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="433.0" prefWidth="666.0" styleClass="background" stylesheets="@Stily.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="estagio.MenuController">
+   <children>
+      <Text layoutX="289.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" />
+      <Button layoutX="83.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonActionCliente" text="Cliente" textFill="#118a31" />
+      <Button layoutX="164.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonActionFuncionário" text="Funcionário" textFill="#17a41c" />
+      <Button layoutX="277.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonActionProduto" text="Produto" textFill="#12b527" />
+      <Button layoutX="376.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonActionUsuário" text="Usuário" textFill="#32ae3a" />
+      <Button layoutX="73.0" layoutY="357.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="Sair" textFill="#d70a0a" />
+      <Button layoutX="475.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonActionPréVenda" text="Pré-Venda" textFill="#2bbc2b" />
+      <Button layoutX="568.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonActionEstoque" text="Estoque" textFill="#3ada42" />
+   </children>
+</Pane>

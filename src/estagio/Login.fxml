@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="idlogin" 
+      maxHeight="-Infinity" 
+      maxWidth="-Infinity" 
+      minHeight="-Infinity" 
+      minWidth="-Infinity" 
+      prefHeight="286.0" 
+      prefWidth="415.0" 
+      styleClass="background" 
+      stylesheets="@Stily.css" 
+      xmlns="http://javafx.com/javafx/8" 
+      xmlns:fx="http://javafx.com/fxml/1" 
+      fx:controller="estagio.LoginController">
+   <children>
+                 
+      <Text layoutX="184.0" layoutY="41.0" stroke="#354230" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.9714285714285714" endY="0.5095238095238095" startX="0.9619047619047618" startY="0.18095238095238095">
+               <stops>
+                  <Stop color="#2c91db" />
+                  <Stop color="#17bf99" offset="0.9885057471264367" />
+                  <Stop color="#17bf99" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <TextField layoutX="142.0" layoutY="60.0" prefHeight="34.0" prefWidth="234.0" promptText="Usuário" />
+      <Text fill="#2c91db" layoutX="27.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USUÁRIO" wrappingWidth="114.01953125">
+         <font>
+            <Font name="Times New Roman Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#2c91db" layoutX="27.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SENHA" wrappingWidth="114.01953125">
+         <font>
+            <Font name="Times New Roman Bold" size="22.0" />
+         </font>
+      </Text>
+      <PasswordField layoutX="142.0" layoutY="126.0" prefHeight="34.0" prefWidth="234.0" promptText="Senha" />
+      <Button contentDisplay="BOTTOM" layoutX="27.0" layoutY="197.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="142.0" text="CANCELAR" textFill="#ed4415">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button id="button1" fx:id="Buttonid" contentDisplay="BOTTOM" layoutX="234.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="142.0" text="ENTRAR" textFill="#42a821">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+
+   </children>
+   
+
+</Pane>

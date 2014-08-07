@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+            
+    <children>
+      <TabPane prefHeight="700.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Cadastro de Cliente">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="402.0" prefWidth="600.0" styleClass="background" stylesheets="@Stily.css">
+                     <children>
+                        <Label layoutX="27.0" layoutY="23.0" text="Nome:" />
+                        <Label layoutX="25.0" layoutY="65.0" text="CPF:" />
+                        <Label layoutX="25.0" layoutY="105.0" text="Rua:" />
+                        <Label layoutX="28.0" layoutY="147.0" text="Nº:" />
+                        <Label layoutX="24.0" layoutY="195.0" text="Complemento:" />
+                        <Label layoutX="341.0" layoutY="65.0" text="Telefone:" />
+                        <Label layoutX="341.0" layoutY="105.0" text="Bairro:" />
+                        <Label layoutX="308.0" layoutY="147.0" text="Cidade:" />
+                        <Label layoutX="137.0" layoutY="147.0" text="Cep:" />
+                        <Label layoutX="483.0" layoutY="147.0" text="UF:" />
+                        <ComboBox layoutX="505.0" layoutY="143.0" prefHeight="25.0" prefWidth="65.0" promptText="RO&#10;" />
+                        <Button layoutX="28.0" layoutY="296.0" mnemonicParsing="false" text="Cancelar" />
+                        <Button layoutX="514.0" layoutY="296.0" mnemonicParsing="false" text="Salvar" />
+                        <TextField layoutX="67.0" layoutY="19.0" prefHeight="25.0" prefWidth="503.0" promptText="Nome" />
+                        <TextField layoutX="67.0" layoutY="61.0" prefHeight="25.0" prefWidth="261.0" promptText="CPF" />
+                        <TextField layoutX="67.0" layoutY="101.0" prefHeight="25.0" prefWidth="261.0" promptText="Rua" />
+                        <TextField layoutX="68.0" layoutY="143.0" prefHeight="25.0" prefWidth="65.0" promptText="Numero" />
+                        <TextField layoutX="170.0" layoutY="143.0" prefHeight="25.0" prefWidth="130.0" promptText="CEP" />
+                        <TextField layoutX="357.0" layoutY="143.0" prefHeight="25.0" prefWidth="119.0" promptText="Cidade" />
+                        <TextField layoutX="385.0" layoutY="101.0" prefHeight="25.0" prefWidth="185.0" promptText="Bairro" />
+                        <TextField layoutX="398.0" layoutY="61.0" prefHeight="25.0" prefWidth="171.0" promptText="Telefone" />
+                        <TextField layoutX="111.0" layoutY="191.0" prefHeight="25.0" prefWidth="459.0" promptText="Complemento" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Busca de Cliente">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" styleClass="background" stylesheets="@Stily.css">
+                     <children>
+                        <Button layoutX="418.0" layoutY="29.0" mnemonicParsing="false" text="Buscar" />
+                        <Button layoutX="59.0" layoutY="260.0" mnemonicParsing="false" text="Cancelar" />
+                        <Button layoutX="446.0" layoutY="260.0" mnemonicParsing="false" text="Editar" />
+                        <TextField layoutX="90.0" layoutY="29.0" prefHeight="25.0" prefWidth="320.0" promptText="Busca de Cliente" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

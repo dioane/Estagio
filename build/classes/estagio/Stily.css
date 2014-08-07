@@ -1,0 +1,10 @@
+
+.background {
+    -fx-background-image: url("");
+    -fx-background-color:
+       linear-gradient(#010101 0%, #010101 20%, #010101 100%),
+       linear-gradient(#8B8B8B, #8B8B8B, #010101),
+       radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    
+}
+
